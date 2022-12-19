@@ -50,7 +50,7 @@ public class Que_1_FindLowestN_In_List {
 	public static int m1(List<Integer> list) 
 	{
 		if (list == null || list.size() == 0) {
-		    return Integer.MAX_VALUE;
+		    return Integer.MIN_VALUE;
 		}
 		return 0;
 	}
