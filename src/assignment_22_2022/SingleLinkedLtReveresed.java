@@ -12,7 +12,6 @@ public class SingleLinkedLtReveresed {
 		    next = null;
 		  }
 		}
-	
 	//represent head and tail of single linked list
 			public Node head=null;
 			public Node tail=null;
@@ -62,8 +61,5 @@ public class SingleLinkedLtReveresed {
 			t.addNode(2);
 			t.addNode(3);
 			t.addNode(4);
-			
-			//System.out.println(reverse(t));
-			
 		}
 }

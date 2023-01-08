@@ -38,7 +38,7 @@ public class CreditcardPaymentMode implements PaymentMethod {
 	}
 	@Override
 	public void pay(int amount) {
-		System.out.println(amount+":is paid using debit"+card);
+		System.out.println(amount+":::is paid using debit::::"+card);
 		
 	}
 	

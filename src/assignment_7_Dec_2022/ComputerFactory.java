@@ -7,9 +7,6 @@ public class ComputerFactory {
 	}
 	
 	public static Computer getFactory(AbstractComputerFactory abstractComputerFactory) {
-		
-		
-		 
 		return abstractComputerFactory.createComputer();
 		
 	}

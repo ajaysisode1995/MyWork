@@ -7,7 +7,6 @@ public class ClientTest {
 		Product product1=new Product("flower", "ruith", 100);
 		Product product2=new Product("football", "hr3o", 105);
 		Product product3=new Product("watch", "ehufip", 200);
-		
 		shoppingCart.addProduct(product1);
 		shoppingCart.addProduct(product2);
 		shoppingCart.addProduct(product3);
